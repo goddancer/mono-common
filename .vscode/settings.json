@@ -1,0 +1,73 @@
+{
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  // 官方推荐的自动修复方式https://github.com/microsoft/vscode-eslint#settings-migration
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.options": {
+    "extensions": [".html", ".js", ".vue", ".jsx", ".json"]
+  },
+  "eslint.validate": ["javascriptreact", "html", "javascript", "vue"],
+  "files.autoSave": "onFocusChange",
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescriptreact]": {},
+  "workbench.iconTheme": "vscode-icons",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.linkedEditing": true,
+  "editor.autoIndent": "advanced",
+  "editor.wordWrap": "on",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "vetur.validation.template": false,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "default",
+      "filenamePattern": "*.pdf"
+    }
+  ],
+  "vsicons.dontShowNewVersionMessage": true,
+  "search.exclude": {
+    "**/package-lock.json": true
+  },
+  "explorer.autoReveal": false,
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src"
+  },
+  "i18n-ally.localesPaths": ["src/locales"],
+  "i18n-ally.sortKeys": true,
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.keepFulfilled": true,
+  "i18n-ally.sourceLanguage": "en",
+  "i18n-ally.displayLanguage": "zh-CN",
+  "i18n-ally.editor.preferEditor": true
+}

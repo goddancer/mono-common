@@ -1,0 +1,4 @@
+[submodule "common-module"]
+	path = common-module
+	url = git@10.9.19.245:Website/common-module.git
+	branch = feature/super-app
